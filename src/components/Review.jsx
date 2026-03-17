@@ -3,8 +3,17 @@ import { Quote } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import Shridhar from '@/assets/Shridhar.jpg';
 import Aryan from '@/assets/Aryan_Raj.jpg';
+import Anurag from "@/assets/Anurag_Raj.png"
 
 const reviews = [
+  {
+    quote: "Harshit demonstrated exceptional dedication, strong technical skills, and a remarkable work ethic throughout the project.\n\nHis ability to understand the requirements and build a smooth, user-friendly system played a key role in the success of this initiative. I highly recommend him as a reliable and committed developer.",
+    author: "Anurag Raj",
+    role: "Academic Director",
+    company: "British English School",
+    avatar: Anurag,
+    initials: "ER"
+  },
   {
     quote: "He is highly motivated, passionate about learning, hardworking, diligent, a strong team player.",
     author: "Shridhar Kumar",
@@ -21,14 +30,6 @@ const reviews = [
     avatar: Aryan,
     initials: "AR"
   },
-  // {
-  //   quote: "The attention to detail is unmatched. Every interaction, every animation — meticulously crafted.",
-  //   author: "Elena Rodriguez",
-  //   role: "Product Director",
-  //   company: "DesignLab",
-  //   avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
-  //   initials: "ER"
-  // },
   //   {
   //   quote: "The attention to detail is unmatched. Every interaction, every animation — meticulously crafted.",
   //   author: "Elena Rodriguez",
@@ -69,7 +70,7 @@ export const ReviewsSection = () => {
                   <Quote className="w-8 h-8 sm:w-10 sm:h-10 text-accent/40 mb-4 sm:mb-6 group-hover:text-accent/60 transition-colors duration-500" />
 
                   {/* Quote text */}
-                  <blockquote className="text-foreground/90 text-base sm:text-lg leading-relaxed font-light mb-6 sm:mb-8 grow">
+                  <blockquote className="whitespace-pre-line text-foreground/90 text-base sm:text-lg leading-relaxed font-light mb-6 sm:mb-8 grow">
                     “{review.quote}”
                   </blockquote>
 
