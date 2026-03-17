@@ -23,7 +23,7 @@ const reviews = [
     initials: "SK"
   },
   {
-    quote: "He has a clear mind, just like his clean UI, and he's as smooth as his UX. The way he helps transform your idea into a polished, high-quality product truly shows his creativity ",
+    quote: "He has a clear mind, just like his clean UI, and he's as smooth as his UX.\n\n The way he helps transform your idea into a polished, high-quality product truly shows his creativity ",
     author: "Aryan Raj",
     role: "Product Manager",
     company: "Klimb.io",
