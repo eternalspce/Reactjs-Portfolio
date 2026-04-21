@@ -1,6 +1,7 @@
 import { AnimatedSection } from "./Animated";
 import project1 from '@/assets/project-1.png';
 import project2 from '@/assets/project-2.png';
+import project3 from '@/assets/project-3.png';
 
 const projects = [
   {
@@ -11,7 +12,7 @@ const projects = [
     description: 'A streamlined web application for managing entrance exams with automated registration, admin operations, and admit card workflows.',
     image: project1,
     tech: ['React', 'Vite','Express', 'Node.js', 'MongoDB', 'PDFKit'],
-    link: 'https://www.bsgurukul.com/',
+    link: 'https://www.bsgurukul.com',
   },
   {
     id: 2,
@@ -23,15 +24,16 @@ const projects = [
     tech: ['TypeScript', 'React', 'Next.js', 'Clerk', 'Convex', 'Google Gen-AI', 'Google Maps API'],
     link: 'https://trippy-trip-planner-2ddb.vercel.app',
   },
-  // {
-  //   id: 3,
-  //   title: 'Luxury Commerce',
-  //   category: 'E-Commerce',
-  //   year: '2023',
-  //   description: 'High-end fashion retail platform with personalized shopping experiences.',
-  //   image: project3,
-  //   tech: ['Vue.js', 'Shopify', 'Tailwind', 'Stripe'],
-  // },
+  {
+    id: 3,
+    title: 'Money Muling Detection System',
+    category: 'Financial Crime Detection',
+    year: '2026',
+    description: 'A sophisticated graph-based analysis platform designed to detect and prevent money muling activities through transaction pattern recognition, cycle detection, and risk scoring algorithms.',
+    image: project3,
+    tech: ['Node.js', 'Express.js', 'React', 'Vite', 'Tailwind CSS', 'Graph Analysis', 'Risk Scoring Engine'],
+    link: 'https://money-muling-ten.vercel.app',
+  },
 ];
 
 export const ProjectsSection = () => {
