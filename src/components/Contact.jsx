@@ -209,10 +209,10 @@ export const ContactSection = () => {
               Or reach out directly:
             </p>
             <a
-              href="mailto:workmail.hraj@gmail.com"
+              href="mailto:eternalspce@gmail.com"
               className="group inline-flex items-center gap-2 sm:gap-4 font-serif text-lg sm:text-2xl md:text-3xl font-medium text-foreground hover:text-primary transition-colors duration-300 break-all sm:break-normal"
             >
-              <span className="hover-underline">workmail.hraj@gmail.com</span>
+              <span className="hover-underline">eternalspce@gmail.com</span>
               <svg
                 className="w-5 h-5 sm:w-6 sm:h-6 shrink-0 transition-transform duration-300 group-hover:translate-x-2 group-hover:-translate-y-1"
                 fill="none"
